@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  fastapi:
+    image: image-test-fastapi
+    build: .
+    container_name: fastapi-app-jorge
+    ports:
+      - "8000:8000"
+      
